@@ -22,7 +22,7 @@ A easy to use WoW Recruitmet Widget
 
 == Screenshots ==
 
-1. Screenshot 2015-01-26 13.21.53.png.
+1. This is what it looks like
 
 == Changelog ==
 
