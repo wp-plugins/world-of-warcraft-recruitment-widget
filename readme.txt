@@ -15,6 +15,7 @@ A easy to use WoW Recruitmet Widget
 A easy to use WoW Recruitmet Widget
 
 If you like my Plugin feel free to use my G2A link for a little "thanks".
+http://www.g2a.com/r/yanitor
 
 == Installation ==
 
