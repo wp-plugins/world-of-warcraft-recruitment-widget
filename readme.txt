@@ -1,6 +1,6 @@
 === World of Warcraft Recruitment Widget ===
 Contributors: yanitor
-Donate link:
+Donate link: http://www.g2a.com/r/yanitor
 Tags: world of warcaft, wow, warcraft, recruitment, 
 Requires at least: 4.1
 Tested up to: 4.1
@@ -13,6 +13,8 @@ A easy to use WoW Recruitmet Widget
 == Description ==
 
 A easy to use WoW Recruitmet Widget
+
+If you like my Plugin feel free to use my G2A link for a little "thanks".
 
 == Installation ==
 
