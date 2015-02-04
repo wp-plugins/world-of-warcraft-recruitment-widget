@@ -71,7 +71,7 @@ class World_of_Warcraft_recruitment_widget extends WP_Widget
 					<td>
 						<?php foreach ( $value as $spec ): ?>
 							<?php $style = ( $instance[ $key.'_'.$spec ] == 'on' ? 'open' : 'close' ); ?>
-							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.$key.'_'.$spec, __FILE__ ).'.jpg" > '; ?>
+							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.strtolower( $key.'_'.$spec ), __FILE__ ).'.jpg" > '; ?>
 						<?php endforeach ?>
 					</td>
 				</tr>

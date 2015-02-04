@@ -4,7 +4,7 @@ Donate link: http://www.g2a.com/r/yanitor
 Tags: world of warcaft, wow, warcraft, recruitment, 
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,10 +29,13 @@ http://www.g2a.com/r/yanitor
 
 == Changelog ==
 
-= 1.1 =
+= 1.1.1 =
+* Fixed image bug
+
+= 1.1.0 =
 * Some Code Tweaks
 * Added Screenshot
 * Wider optionspanel
 
-= 1.0 =
+= 1.0.0 =
 * Create this plugin
