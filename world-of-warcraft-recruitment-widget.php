@@ -3,13 +3,13 @@
 Plugin Name: World of Warcraft Recruitment Widget
 Plugin URI:
 Description: A simple to use WoW Recruitment Widget Plugin
-Version: 1.1
+Version: 1.1.2
 Author: Yan Paiha
 Author URI:
 License: GPL2
 */
 /*
-Copyright 2015  Yan Pauha  (email : y.paiha©gmail.com)
+Copyright 2015 Yan Paiha (email : y.paiha©gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
@@ -31,24 +31,24 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 class World_of_Warcraft_recruitment_widget extends WP_Widget
 {
 
-	private $classes = [
-		'Warrior'    => ['Arms', 'Fury', 'Protection'],
-		'Paladin'    => ['Holy', 'Protection', 'Retribution'],
-		'Hunter'     => ['Beastmaster', 'Marksman', 'Survival'],
-		'Rogue'      => ['Assassination', 'Combat', 'Subtlety'],
-		'Priest'     => ['Discipline', 'Holy', 'Shadow'],
-		'Deathknigh' => ['Blood', 'Frost', 'Unholy'],
-		'Shaman'     => ['Elemental', 'Enhancement', 'Restoration'],
-		'Mage'       => ['Arcane', 'Fire', 'Frost'],
-		'Warlock'    => ['Affliction', 'Demonology', 'Destruction'],
-		'Monk'       => ['Brewmaster', 'Mistweaver', 'Battledancer'],
-		'Druid'      => ['Balance', 'Cat', 'Bear', 'Restoration'],
-	];
+	private $classes = array(
+		'Warrior'    => array('Arms', 'Fury', 'Protection'),
+		'Paladin'    => array('Holy', 'Protection', 'Retribution'),
+		'Hunter'     => array('Beastmaster', 'Marksman', 'Survival'),
+		'Rogue'      => array('Assassination', 'Combat', 'Subtlety'),
+		'Priest'     => array('Discipline', 'Holy', 'Shadow'),
+		'Deathknigh' => array('Blood', 'Frost', 'Unholy'),
+		'Shaman'     => array('Elemental', 'Enhancement', 'Restoration'),
+		'Mage'       => array('Arcane', 'Fire', 'Frost'),
+		'Warlock'    => array('Affliction', 'Demonology', 'Destruction'),
+		'Monk'       => array('Brewmaster', 'Mistweaver', 'Battledancer'),
+		'Druid'      => array('Balance', 'Cat', 'Bear', 'Restoration'),
+	);
 
 	public function __construct()
 	{
-		$widget_ops = ['description' => __( 'A simple to use WoW Recruitment Widget', 'world_of_warcraft_recruitment_widget_textdomain' )];
-		$control_ops = ['width' => 500];
+		$widget_ops = array( 'description' => __( 'A simple to use WoW Recruitment Widget', 'world_of_warcraft_recruitment_widget_textdomain' ) );
+		$control_ops = array( 'width' => 500 );
 		
 		parent::__construct('world_of_warcraft_recruitment_widget', __( 'World of Warcraft recruitment widget', 'world_of_warcraft_recruitment_widget_textdomain' ), $widget_ops, $control_ops);
 

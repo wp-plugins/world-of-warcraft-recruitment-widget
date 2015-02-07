@@ -4,7 +4,7 @@ Donate link: http://www.g2a.com/r/yanitor
 Tags: world of warcaft, wow, warcraft, recruitment, 
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ http://www.g2a.com/r/yanitor
 1. This is what it looks like
 
 == Changelog ==
+
+= 1.1.2 =
+* Fixed the issue with a lower PHP version then 5.4
 
 = 1.1.1 =
 * Fixed image bug
