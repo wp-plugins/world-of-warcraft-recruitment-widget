@@ -1,21 +1,18 @@
 === World of Warcraft Recruitment Widget ===
 Contributors: yanitor
-Donate link: http://www.g2a.com/r/yanitor
-Tags: world of warcaft, wow, warcraft, recruitment, 
+Donate link: http://yanitor.g2a.com
+Tags: world of warcaft, wow, warcraft, recruitment, recruit, widget
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A easy to use WoW Recruitmet Widget
+An easy to use WoW Recruitmet Widget
 
 == Description ==
 
-A easy to use WoW Recruitmet Widget
-
-If you like my Plugin feel free to use my G2A link for a little "thanks".
-http://www.g2a.com/r/yanitor
+An easy to use WoW Recruitmet Widget.
 
 == Installation ==
 
