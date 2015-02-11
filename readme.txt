@@ -14,6 +14,8 @@ An easy to use WoW Recruitmet Widget
 
 An easy to use WoW Recruitmet Widget.
 
+http://www.g2a.com/r/yanoria
+
 == Installation ==
 
 1. Upload the `world-of-warcraft-recruitment-widget` directory to the `/wp-content/plugins/` directory
