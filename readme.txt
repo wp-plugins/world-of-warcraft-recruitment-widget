@@ -4,7 +4,7 @@ Donate link: http://yanitor.g2a.com
 Tags: world of warcaft, wow, warcraft, recruitment, recruit, widget
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ If you like this Widget feel free to use my G2A link for a little "thanks" http:
 1. This is what it looks like
 
 == Changelog ==
+
+= 1.1.3 =
+* Adding alt and title attribute (Thanks to AnthonyEdens)
+* Correct misspelling (Thanks to AnthonyEdens and Vicuslupus)
 
 = 1.1.2 =
 * Fixed the issue with a lower PHP version then 5.4

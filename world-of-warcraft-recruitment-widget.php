@@ -3,7 +3,7 @@
 Plugin Name: World of Warcraft Recruitment Widget
 Plugin URI:
 Description: A simple to use WoW Recruitment Widget Plugin
-Version: 1.1.2
+Version: 1.1.3
 Author: Yan Paiha
 Author URI:
 License: GPL2
@@ -32,17 +32,17 @@ class World_of_Warcraft_recruitment_widget extends WP_Widget
 {
 
 	private $classes = array(
-		'Warrior'    => array('Arms', 'Fury', 'Protection'),
-		'Paladin'    => array('Holy', 'Protection', 'Retribution'),
-		'Hunter'     => array('Beastmaster', 'Marksman', 'Survival'),
-		'Rogue'      => array('Assassination', 'Combat', 'Subtlety'),
-		'Priest'     => array('Discipline', 'Holy', 'Shadow'),
-		'Deathknigh' => array('Blood', 'Frost', 'Unholy'),
-		'Shaman'     => array('Elemental', 'Enhancement', 'Restoration'),
-		'Mage'       => array('Arcane', 'Fire', 'Frost'),
-		'Warlock'    => array('Affliction', 'Demonology', 'Destruction'),
-		'Monk'       => array('Brewmaster', 'Mistweaver', 'Battledancer'),
-		'Druid'      => array('Balance', 'Cat', 'Bear', 'Restoration'),
+		'Warrior'     => array('Arms', 'Fury', 'Protection'),
+		'Paladin'     => array('Holy', 'Protection', 'Retribution'),
+		'Hunter'      => array('Beastmaster', 'Marksman', 'Survival'),
+		'Rogue'       => array('Assassination', 'Combat', 'Subtlety'),
+		'Priest'      => array('Discipline', 'Holy', 'Shadow'),
+		'Deathknight' => array('Blood', 'Frost', 'Unholy'),
+		'Shaman'      => array('Elemental', 'Enhancement', 'Restoration'),
+		'Mage'        => array('Arcane', 'Fire', 'Frost'),
+		'Warlock'     => array('Affliction', 'Demonology', 'Destruction'),
+		'Monk'        => array('Brewmaster', 'Mistweaver', 'Battledancer'),
+		'Druid'       => array('Balance', 'Cat', 'Bear', 'Restoration'),
 	);
 
 	public function __construct()
@@ -71,7 +71,7 @@ class World_of_Warcraft_recruitment_widget extends WP_Widget
 					<td>
 						<?php foreach ( $value as $spec ): ?>
 							<?php $style = ( $instance[ $key.'_'.$spec ] == 'on' ? 'open' : 'close' ); ?>
-							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.strtolower( $key.'_'.$spec ), __FILE__ ).'.jpg" > '; ?>
+							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.strtolower( $key.'_'.$spec ), __FILE__ ).'.jpg" alt="'.$spec.'" title="'.$spec.'" > '; ?>
 						<?php endforeach ?>
 					</td>
 				</tr>
