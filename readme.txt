@@ -4,7 +4,7 @@ Donate link: http://yanitor.g2a.com
 Tags: world of warcaft, wow, warcraft, recruitment, recruit, widget
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ If you like this Widget feel free to use my G2A link for a little "thanks" http:
 1. This is what it looks like
 
 == Changelog ==
+
+= 1.1.5 =
+* Bugfixing
 
 = 1.1.4 =
 * Some default img Style

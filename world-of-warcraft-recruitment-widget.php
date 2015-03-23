@@ -3,7 +3,7 @@
 Plugin Name: World of Warcraft Recruitment Widget
 Plugin URI:
 Description: A simple to use WoW Recruitment Widget Plugin
-Version: 1.1.4
+Version: 1.1.5
 Author: Yan Paiha
 Author URI:
 License: GPL2
