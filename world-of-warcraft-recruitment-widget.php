@@ -35,14 +35,15 @@ class World_of_Warcraft_recruitment_widget extends WP_Widget
 		'Warrior'     => array('Arms', 'Fury', 'Protection'),
 		'Paladin'     => array('Holy', 'Protection', 'Retribution'),
 		'Hunter'      => array('Beastmaster', 'Marksman', 'Survival'),
-		'Rogue'       => array('Assassination', 'Combat', 'Subtlety'),
+		'Rogue'       => array('Assassination', 'Outlaw', 'Subtlety'),
 		'Priest'      => array('Discipline', 'Holy', 'Shadow'),
 		'Deathknight' => array('Blood', 'Frost', 'Unholy'),
 		'Shaman'      => array('Elemental', 'Enhancement', 'Restoration'),
 		'Mage'        => array('Arcane', 'Fire', 'Frost'),
 		'Warlock'     => array('Affliction', 'Demonology', 'Destruction'),
 		'Monk'        => array('Brewmaster', 'Mistweaver', 'Battledancer'),
-		'Druid'       => array('Balance', 'Cat', 'Bear', 'Restoration'),
+		'Demonhunter' => array('Havoc', 'Vengeance'),
+		'Druid'       => array('Balance', 'Cat', 'Bear', 'Restoration'),		
 	);
 
 	public function __construct()
@@ -71,7 +72,7 @@ class World_of_Warcraft_recruitment_widget extends WP_Widget
 					<td>
 						<?php foreach ( $value as $spec ): ?>
 							<?php $style = ( $instance[ $key.'_'.$spec ] == 'on' ? 'open' : 'close' ); ?>
-							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.strtolower( $key.'_'.$spec ), __FILE__ ).'.jpg" alt="'.$spec.'" title="'.$spec.'" > '; ?>
+							<?php echo '<img class="'.$style.'" src="'.plugins_url( '/img/wow_icons/'.strtolower( $key.'_'.$spec ), __FILE__ ).'.jpg" alt="'.__( $spec, 'world_of_warcraft_recruitment_widget_textdomain' ).'" title="'.__( $spec, 'world_of_warcraft_recruitment_widget_textdomain' ).'" > '; ?>
 						<?php endforeach ?>
 					</td>
 				</tr>
